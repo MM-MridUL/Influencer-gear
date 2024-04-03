@@ -124,6 +124,9 @@ main{
     gap: 30px;
    
 }
+.container img{
+    margin: 0 auto;
+}
 .container-item{
     padding: 10px 10px;
     border-radius: 7px;
@@ -193,6 +196,17 @@ main{
         justify-content: start;
         gap: 20px;
     }
+    /* Popular collection */
+    .container{
+        grid-template-columns: 1fr
+       
+    }
+    main{
+        width: 100%;
+    }
+    #btn-2{
+        margin-left: 70%;
+    }
 
 
     
@@ -207,6 +221,17 @@ main{
         text-align: center;
         padding: 40px 20px;
     }
+     /* Popular collection */
+     main{
+        width: 100%;
+    }
+     .container{
+        grid-template-columns: repeat(2,1fr)
+       
+    }
+    #btn-2{
+       margin-left: 90%;
 
     
+}
 }
